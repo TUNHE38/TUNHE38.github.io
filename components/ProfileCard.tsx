@@ -3,7 +3,7 @@ import { GlassPanel } from './GlassPanel';
 import { Github, Twitter, Mail, MessageCircle } from 'lucide-react';
 
 export const ProfileCard: React.FC = () => {
-  const [name, setName] = useState('NANHUAI');
+  const [name, setName] = useState('DROITE');
   const [isEditing, setIsEditing] = useState(false);
 
   useEffect(() => {
@@ -94,10 +94,10 @@ export const ProfileCard: React.FC = () => {
         {/* Social Links - Anchored at bottom, shrink-0 to prevent crushing */}
         <div className="mt-auto pt-6 w-full grid grid-cols-4 gap-3 shrink-0 z-20">
             {[
-            { icon: <Github size={20} />, href: "right202209.github.io", label: "GitHub" },
-            { icon: <Twitter size={20} />, href: "#", label: "Twitter" },
-            { icon: <Mail size={20} />, href: "#", label: "Email" },
-            { icon: <MessageCircle size={20} />, href: "#", label: "Chat" }
+            { icon: <Github size={20} />, href: "tunhe38.github.io", label: "GitHub" },
+            { icon: <Twitter size={20} />, href: "https://x.com/tunhe245960", label: "Twitter" },
+            { icon: <Mail size={20} />, href: "mailto:tunhe38@gmail.com", label: "Email" },
+            { icon: <MessageCircle size={20} />, href: "https://x.com/tunhe245960", label: "Chat" }
             ].map((social, idx) => (
             <a 
                 key={idx} 

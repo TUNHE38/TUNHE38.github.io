@@ -1,0 +1,5 @@
+{
+  "name": "Aura Dashboard",
+  "description": "A personalized, aesthetic homepage featuring glassmorphism design, integrated smart search powered by Gemini, and quick access links.",
+  "requestFramePermissions": []
+}

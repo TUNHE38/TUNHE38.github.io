@@ -9,7 +9,7 @@ description: "A small place to think slowly."
 tagline: "We write not to be read, but to find out what we think."
 url: ""          # e.g. https://example.com
 baseurl: ""      # e.g. /blog
-lang: en
+lang: zh_CN
 timezone: Asia/Shanghai
 
 avatar: /assets/img/avatar.svg
